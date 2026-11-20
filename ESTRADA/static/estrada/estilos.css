@@ -50,7 +50,7 @@ nav a:hover {
 .bienvenida h2 {
     color: #132752;
 }
-
+c
 .bienvenida p {
     font-size: 17px;
     line-height: 1.6;
@@ -62,4 +62,29 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+form{
+    background-color: #c184aa;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea{
+    width: 95%;
+    padding: 8px 0;
+    box-sizing: border-box;
+    background-color: #834E8A;
+}
+button{
+    background-color: purple;
+    color: lavenderblush;
+    padding: 10px;
+    border: none;
+    width: 95;
+    cursor: pointer;
+}
+label{
+    background-color: #18284D;
+    
 }
