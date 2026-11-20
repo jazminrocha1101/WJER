@@ -74,11 +74,11 @@ input, select, textarea{
     width: 95%;
     padding: 8px 0;
     box-sizing: border-box;
-    background-color: #834E8A;
+    background-color: rgb(200, 146, 200);
 }
 button{
-    background-color: purple;
-    color: lavenderblush;
+    background-color: rgb(95, 42, 95);
+    color: rgb(141, 90, 129);
     padding: 10px;
     border: none;
     width: 95;
@@ -87,4 +87,15 @@ button{
 label{
     background-color: #18284D;
     
+}
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: pink;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+    background-color: rgb(174, 128, 198);
 }
